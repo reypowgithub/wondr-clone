@@ -1,6 +1,7 @@
 {
     "promotions": [
       {
+        "promo_id": "P001",
         "promo_name": "Buy 1 Get 2 Tickets BNI Java Jazz Festival",
         "description": "Pembelian melalui wondr by BNI & javajazzfestival.com",
         "periode": "19 Maret - 7 Mei 2025",
@@ -44,6 +45,7 @@
         }
       },
       {
+        "promo_id": "P002",
         "promo_name": "Concert Ticket 2-for-1 Deal",
         "description": "Buy 1 Concert Ticket and get 1 free at participating venues.",
         "periode": "1 May - 15 May 2025",
@@ -59,6 +61,7 @@
         }
       },
       {
+        "promo_id": "P003",
         "promo_name": "Travel Getaway Package Discount",
         "description": "Enjoy a 20% discount on travel getaway packages via TravelNow.",
         "periode": "1 June - 30 June 2025",
@@ -77,6 +80,7 @@
         }
       },
       {
+        "promo_id": "P004",
         "promo_name": "Holiday Special 10% Off on Family Packages",
         "description": "Get 10% off on family holiday packages for summer bookings.",
         "periode": "1 July - 15 July 2025",
@@ -95,6 +99,7 @@
         }
       },
       {
+        "promo_id": "P005",
         "promo_name": "Movie Night Buy 1 Get 1 Free",
         "description": "Get 1 free ticket when you buy 1 for any movie at selected theaters.",
         "periode": "1 August - 31 August 2025",
@@ -109,6 +114,7 @@
         }
       },
       {
+        "promo_id": "P006",
         "promo_name": "Exclusive Fashion Sale 50% Off",
         "description": "Enjoy up to 50% off on selected fashion items at FashionHub stores.",
         "periode": "1 September - 30 September 2025",
@@ -127,6 +133,7 @@
         }
       },
       {
+        "promo_id": "P007",
         "promo_name": "Weekend Dining Special 20% Off",
         "description": "Get 20% off on weekend dining for two at participating restaurants.",
         "periode": "Every Saturday & Sunday, 1 October - 31 December 2025",
@@ -145,6 +152,7 @@
         }
       },
       {
+        "promo_id": "P008",
         "promo_name": "Fitness Membership Discount 25% Off",
         "description": "Get 25% off on new membership for the first 3 months at FitLife Gym.",
         "periode": "1 November - 15 December 2025",
@@ -163,6 +171,7 @@
         }
       },
       {
+        "promo_id": "P009",
         "promo_name": "Early Bird Booking 15% Off",
         "description": "Get 15% off your bookings for early reservations on event tickets.",
         "periode": "1 December - 15 December 2025",
@@ -181,6 +190,7 @@
         }
       },
       {
+        "promo_id": "P010",
         "promo_name": "Car Rental Weekend Special",
         "description": "Rent a car on weekends and get 10% off the total rental fee.",
         "periode": "1 January - 31 January 2026",

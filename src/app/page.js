@@ -42,29 +42,55 @@ export default function Home() {
         </div>
       </section>
       <section className=" md:pt-[80px] bg-[#6350F8] relative">
-        <div className="mt-[48px] md:mt-[80px] max-w-screen-xl md:max-w-screen-sm lg:max-w-screen-xl px-[24px] md:px-[30px] mx-auto">
-          <div className="flex items-center justify-between " id="headingPromo">
-            <h2 className="text-white text-[40px] leading-[48px] md:text-[80px] font-demibold md:leading-[88px] w-32 md:w-auto w-[60%] md:w-auto">Makin seru pakai promo</h2>
-            <a href="/dashboard" className="font-demibold text-white text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] underline tracking-[-0.0225em] btn-all-promo " id="btnAllPromo">Lihat semuanya</a>
-          </div>
-        </div>
-        <div className="swiper swiper-initialized swiper-horizontal mySwiperPromo mt-[32px] md:mt-[80px] max-w-screen-xl md:max-w-screen-sm lg:max-w-screen-xl mx-auto flex items-center justify-between px-[24px] md:px-[30px] swiper-backface-hidden">
-          <div className="swiper-wrapper" style={{transform: 'translate3d(0px, 0px, 0px)'}}>
-            <div className="swiper-slide swiper-slide-active" style={{width: '288.667px', marginRight: '16px'}}>
-              <a className="" href="https://bniexperience.bni.co.id/promo/detail/buy-1-get-2-tickets-bni-java-jazz-festival-fvcxro?utm_source=microsite&amp;utm_medium=home_promo&amp;utm_campaign=javajazzfestival&amp;utm_term=jjf&amp;utm_content=jjf">
-                <img className="rounded-[24px] w-full h-full" src="./jjfPoster.jpg" alt=""/>
-                <div className="mt-[24px]">
-                  <div className="quill mb-3 font-demibold text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] text-white line-clamp-4">
-                    <div className="quill">
-                      <p>Buy 1 Get 2 Tiket BNI Java Jazz Festival dengan wondr by BNI</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
+        <div className="relative z-[5] overflow-x-hidden pb-0 sm:pb-32 md:pb-0"> 
+          <div className="mt-[48px] md:mt-[80px] max-w-screen-xl md:max-w-screen-sm lg:max-w-screen-xl px-[24px] md:px-[30px] mx-auto">
+            <div className="flex items-center justify-between " id="headingPromo">
+              <h2 className="text-white text-[40px] leading-[48px] md:text-[80px] font-demibold md:leading-[88px] w-32 md:w-auto w-[60%] md:w-auto">Makin seru pakai promo</h2>
+              <a href="/promotions" className="font-demibold text-white text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] underline tracking-[-0.0225em] btn-all-promo " id="btnAllPromo">Lihat semuanya</a>
             </div>
           </div>
-          <div className="swiper-button-prev swiper-button-disabled swiper-button-lock"></div>
-          <div className="swiper-button-next swiper-button-lock swiper-button-disabled"></div>
+          <div className="swiper swiper-initialized swiper-horizontal mySwiperPromo mt-[32px] md:mt-[80px] max-w-screen-xl md:max-w-screen-sm lg:max-w-screen-xl mx-auto flex items-center justify-between px-[24px] md:px-[30px] swiper-backface-hidden">
+            <div className="swiper-wrapper" style={{transform: 'translate3d(0px, 0px, 0px)'}}>
+              <div className="swiper-slide swiper-slide-active" style={{width: '288.667px', marginRight: '16px'}}>
+                <a className="" href="https://bniexperience.bni.co.id/promo/detail/buy-1-get-2-tickets-bni-java-jazz-festival-fvcxro?utm_source=microsite&amp;utm_medium=home_promo&amp;utm_campaign=javajazzfestival&amp;utm_term=jjf&amp;utm_content=jjf">
+                  <img className="rounded-[24px] w-full h-full" src="./jjfPoster.jpg" alt=""/>
+                  <div className="mt-[24px]">
+                    <div className="quill mb-3 font-demibold text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] text-white line-clamp-4">
+                      <div className="quill">
+                        <p>Buy 1 Get 2 Tiket BNI Java Jazz Festival dengan wondr by BNI</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="swiper-slide swiper-slide-next" style={{width: '288.667px', marginRight: '16px'}}>
+                <a className="" href="https://bniexperience.bni.co.id/promo/detail/buy-1-get-2-tickets-bni-java-jazz-festival-fvcxro?utm_source=microsite&amp;utm_medium=home_promo&amp;utm_campaign=javajazzfestival&amp;utm_term=jjf&amp;utm_content=jjf">
+                  <img className="rounded-[24px] w-full h-full" src="./jjfPoster.jpg" alt=""/>
+                  <div className="mt-[24px]">
+                    <div className="quill mb-3 font-demibold text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] text-white line-clamp-4">
+                      <div className="quill">
+                        <p>Buy 1 Get 2 Tiket BNI Java Jazz Festival dengan wondr by BNI</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="swiper-slide swiper-slide-next" style={{width: '288.667px', marginRight: '16px'}}>
+                <a className="" href="https://bniexperience.bni.co.id/promo/detail/buy-1-get-2-tickets-bni-java-jazz-festival-fvcxro?utm_source=microsite&amp;utm_medium=home_promo&amp;utm_campaign=javajazzfestival&amp;utm_term=jjf&amp;utm_content=jjf">
+                  <img className="rounded-[24px] w-full h-full" src="./jjfPoster.jpg" alt=""/>
+                  <div className="mt-[24px]">
+                    <div className="quill mb-3 font-demibold text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] text-white line-clamp-4">
+                      <div className="quill">
+                        <p>Buy 1 Get 2 Tiket BNI Java Jazz Festival dengan wondr by BNI</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="swiper-button-prev swiper-button-disabled swiper-button-lock"></div>
+            <div className="swiper-button-next swiper-button-lock swiper-button-disabled"></div>
+          </div>
         </div>
       </section>
     </main>
