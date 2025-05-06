@@ -1,0 +1,210 @@
+{
+    "promotions": [
+      {
+        "promo_name": "Buy 1 Get 2 Tickets BNI Java Jazz Festival",
+        "description": "Pembelian melalui wondr by BNI & javajazzfestival.com",
+        "periode": "19 Maret - 7 Mei 2025",
+        "syarat_dan_ketentuan": [
+          "Promo Buy 1 Get 2 berlaku untuk pembelian Daily Pass.",
+          "Promo Buy 1 Get 2 tidak berlaku untuk pembelian 3-Days Pass.",
+          "Berlaku maksimum pembelian 4 tiket / Nasabah / hari selama periode program (atau 8 tiket termasuk bonus tiket).",
+          "Pembelian melalui Menu Lifestyle BNI Java Jazz Festival di wondr by BNI.",
+          "Mulai 22 April 2025, pembelian tiket juga dapat dilakukan melalui website www.javajazzfestival.com dengan Kartu Kredit, Debit & BNI Emerald.",
+          "Pembelian tiket via website tidak berlaku untuk seluruh Kartu Kredit BNI Amex.",
+          "Promo buy 1 get 2 via website dengan Kartu Debit BNI berlaku untuk transaksi dengan Kartu Debit BNI berlogo Mastercard.",
+          "Berlaku kuota: 2.000 transaksi selama periode program (sudah include bonus ticket).",
+          "Promo Buy 1 Get 2 di wondr by BNI berlaku untuk pembayaran dengan sumber dana Tabungan."
+        ],
+        "faq": [
+          "Periode promo: Batch 1: 19 Maret – 30 April 2025.",
+          "Mulai 22 April 2025, periode program diperpanjang hingga 7 Mei 2025.",
+          "Cicilan 0% Tenor 3 Bulan: Minimum transaksi Rp500.000.",
+          "Promo berlaku untuk transaksi di website Java Jazz Festival 2025.",
+          "Cicilan 0% tenor 3 bulan berlaku untuk seluruh Kartu Kredit BNI JCB, Mastercard, Visa kecuali Amex dan Corporate Card.",
+          "Diskon hingga 30% dengan BNI Rewards Point: Minimum transaksi Rp250.000."
+        ],
+        "cicilan": {
+          "tenor": "3 bulan",
+          "kartu_berlaku": ["BNI JCB", "BNI Mastercard", "BNI Visa"],
+          "syarat": "Cicilan 0% hanya berlaku untuk transaksi di website Java Jazz Festival dan Kantor Java Festival Production Simprug.",
+          "keterangan": "Cicilan 0% dapat digabungkan dengan promo Buy 1 Get 2 dan Diskon BNI Rewards Point."
+        },
+        "rewards": {
+          "diskon_bni_rewards": {
+            "maksimum_diskon": "30%",
+            "minimum_transaksi": "Rp250.000",
+            "maksimum_point": "Rp500.000",
+            "kartu_berlaku": ["BNI JCB", "BNI Mastercard", "BNI Visa"],
+            "pengecualian": ["Co-Branding Garuda", "MAP Club", "Corporate Card"]
+          }
+        },
+        "contact_info": {
+          "bni_call": "1500046",
+          "website": "https://www.javajazzfestival.com"
+        }
+      },
+      {
+        "promo_name": "Concert Ticket 2-for-1 Deal",
+        "description": "Buy 1 Concert Ticket and get 1 free at participating venues.",
+        "periode": "1 May - 15 May 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk pembelian tiket konser di venue-partner.",
+          "Tidak berlaku untuk pembelian tiket VIP atau premium.",
+          "Pembelian terbatas pada 2 tiket per pengguna.",
+          "Pembayaran menggunakan kartu kredit dari bank-partner."
+        ],
+        "contact_info": {
+          "venue_call": "1800-45678",
+          "website": "https://www.concerttickets.com"
+        }
+      },
+      {
+        "promo_name": "Travel Getaway Package Discount",
+        "description": "Enjoy a 20% discount on travel getaway packages via TravelNow.",
+        "periode": "1 June - 30 June 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk paket perjalanan domestik dan internasional.",
+          "Pembelian hanya dapat dilakukan melalui TravelNow app atau website.",
+          "Minimal transaksi Rp3,000,000 untuk mendapatkan diskon."
+        ],
+        "discount": {
+          "percentage": "20%",
+          "minimum_transaksi": "Rp3,000,000"
+        },
+        "contact_info": {
+          "travelnow_call": "1800-98765",
+          "website": "https://www.travelnow.com"
+        }
+      },
+      {
+        "promo_name": "Holiday Special 10% Off on Family Packages",
+        "description": "Get 10% off on family holiday packages for summer bookings.",
+        "periode": "1 July - 15 July 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk paket liburan keluarga yang mencakup hotel dan transportasi.",
+          "Pembelian hanya dapat dilakukan melalui aplikasi atau website partner.",
+          "Diskon berlaku untuk transaksi minimal Rp5,000,000."
+        ],
+        "discount": {
+          "percentage": "10%",
+          "minimum_transaksi": "Rp5,000,000"
+        },
+        "contact_info": {
+          "holiday_call": "1500-2345",
+          "website": "https://www.familyvacations.com"
+        }
+      },
+      {
+        "promo_name": "Movie Night Buy 1 Get 1 Free",
+        "description": "Get 1 free ticket when you buy 1 for any movie at selected theaters.",
+        "periode": "1 August - 31 August 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk pembelian tiket film di bioskop-partner.",
+          "Tidak berlaku untuk film IMAX atau 3D.",
+          "Pembelian hanya melalui aplikasi atau website resmi bioskop."
+        ],
+        "contact_info": {
+          "cinema_call": "1800-23456",
+          "website": "https://www.movies.com"
+        }
+      },
+      {
+        "promo_name": "Exclusive Fashion Sale 50% Off",
+        "description": "Enjoy up to 50% off on selected fashion items at FashionHub stores.",
+        "periode": "1 September - 30 September 2025",
+        "syarat_dan_ketentuan": [
+          "Diskon berlaku untuk item fashion terpilih di seluruh store FashionHub.",
+          "Promo hanya berlaku di store, tidak berlaku online.",
+          "Pembelian terbatas pada 3 item per transaksi."
+        ],
+        "discount": {
+          "percentage": "50%",
+          "item_limit": "3 items per transaction"
+        },
+        "contact_info": {
+          "fashionhub_call": "1500-9876",
+          "website": "https://www.fashionhub.com"
+        }
+      },
+      {
+        "promo_name": "Weekend Dining Special 20% Off",
+        "description": "Get 20% off on weekend dining for two at participating restaurants.",
+        "periode": "Every Saturday & Sunday, 1 October - 31 December 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku hanya untuk dining di restoran-partner.",
+          "Tidak berlaku untuk menu spesial atau premium.",
+          "Diskon hanya berlaku untuk makan bersama 2 orang."
+        ],
+        "discount": {
+          "percentage": "20%",
+          "dining_limit": "2 persons"
+        },
+        "contact_info": {
+          "restaurant_call": "1800-65432",
+          "website": "https://www.diningdeal.com"
+        }
+      },
+      {
+        "promo_name": "Fitness Membership Discount 25% Off",
+        "description": "Get 25% off on new membership for the first 3 months at FitLife Gym.",
+        "periode": "1 November - 15 December 2025",
+        "syarat_dan_ketentuan": [
+          "Promo hanya berlaku untuk membership baru.",
+          "Diskon berlaku untuk pembayaran penuh 3 bulan pertama.",
+          "Promo berlaku hanya di lokasi FitLife Gym."
+        ],
+        "discount": {
+          "percentage": "25%",
+          "membership_duration": "3 months"
+        },
+        "contact_info": {
+          "fitlife_call": "1800-3210",
+          "website": "https://www.fitlifegym.com"
+        }
+      },
+      {
+        "promo_name": "Early Bird Booking 15% Off",
+        "description": "Get 15% off your bookings for early reservations on event tickets.",
+        "periode": "1 December - 15 December 2025",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk pemesanan tiket event lebih dari 30 hari sebelum acara.",
+          "Diskon berlaku hanya untuk pembelian online.",
+          "Minimal transaksi Rp1,000,000."
+        ],
+        "discount": {
+          "percentage": "15%",
+          "minimum_transaksi": "Rp1,000,000"
+        },
+        "contact_info": {
+          "event_call": "1800-4321",
+          "website": "https://www.eventtickets.com"
+        }
+      },
+      {
+        "promo_name": "Car Rental Weekend Special",
+        "description": "Rent a car on weekends and get 10% off the total rental fee.",
+        "periode": "1 January - 31 January 2026",
+        "syarat_dan_ketentuan": [
+          "Promo berlaku untuk penyewaan mobil pada akhir pekan (Sabtu dan Minggu).",
+          "Pembayaran hanya dapat dilakukan dengan kartu kredit atau debit.",
+          "Diskon berlaku untuk semua tipe mobil."
+        ],
+        "discount": {
+          "percentage": "10%",
+          "weekend_only": true
+        },
+        "contact_info": {
+          "rental_call": "1800-54321",
+          "website": "https://www.carrentals.com"
+        }
+      }
+    ],
+    "rates" : [
+      {
+        "id": 1,
+        "name": "Regular",
+        "price": 200000
+      }
+    ]
+  }
+  
