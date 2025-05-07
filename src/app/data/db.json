@@ -209,12 +209,15 @@
         }
       }
     ],
-    "rates" : [
-      {
-        "id": 1,
-        "name": "Regular",
-        "price": 200000
-      }
+    "rates": [
+      { "id": 1, "name": "Tabungan", "value": 3.2 },
+      { "id": 2, "name": "Deposito", "value": 5.1 }
+    ],
+    "exchange": [
+      { "id": 1, "currency": "USD", "value": 15500 }
+    ],
+    "user": [
+      { "id": 1, "name": "John", "balance": 1000000 }
     ]
   }
   

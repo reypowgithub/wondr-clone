@@ -1,7 +1,9 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import GitHubProvider from "next-auth/providers/github";
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
+import { Param } from "@prisma/client/runtime/library";
 
 const prisma = new PrismaClient();
 
@@ -16,7 +18,15 @@ const handler = NextAuth({
         if (!user) throw new Error("No user found");
         const valid = await bcrypt.compare(credentials.password, user.password);
         if (!valid) throw new Error("Invalid password");
-        return { id: user.id, email: user.email };
+        return { id: user.id, name: user.firstName, email: user.email };
+      },
+    }),
+
+    GitHubProvider({
+      clientId: process.env.GITHUB_CLIENT_ID,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET,
+      authorization: {
+        params: { scope: "read:user" },
       },
     }),
   ],

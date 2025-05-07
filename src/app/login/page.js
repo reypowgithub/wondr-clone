@@ -1,6 +1,6 @@
 "use client";
-import { signIn } from "next-auth/react";
-import { useState } from "react";
+import { signIn, useSession } from "next-auth/react";
+import { use, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
@@ -8,6 +8,7 @@ export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const { status } = useSession();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -24,6 +25,21 @@ export default function LoginPage() {
       router.push("/dashboard");
     }
   };
+
+  const handleGithubLogin = (e) => {
+    e.preventDefault();
+    signIn("github");
+  };
+
+  useEffect(() => {
+    if (status === "authenticated") {
+      router.push("/dashboard");
+    }
+  }, [status]);
+
+  if (status === "loading") {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
@@ -74,6 +90,9 @@ export default function LoginPage() {
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md font-medium transition duration-200"
           >
             Sign In
+          </button>
+          <button type="button" onClick={handleGithubLogin}>
+            Sign With Github
           </button>
         </form>
       </div>
